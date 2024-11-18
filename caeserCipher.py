@@ -7,7 +7,8 @@ import pyperclip as pc    # to copy text to clipboard
 
 
 # All symbols that will be encrypted.
-SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+# Evert possible symbol:
+SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ '
 
 maxkey = len(SYMBOLS) - 1  
 
